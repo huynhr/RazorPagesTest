@@ -1,0 +1,44 @@
+﻿@page
+@{
+}
+@section createAccount {
+<link href="@Url.Content(" /css/signUp.css")" rel="stylesheet" type="text/css" />
+}
+<div class="jumbotron jumbotron-fluid jumbotron-container">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <button class="col-2"><</button>
+                <div class="col-8"></div>
+                <button class="col-2">fr</button>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="display-4 text-center">Create a new account</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <form class="form-signin">
+        <div class="form-group">
+            <label for="email" class="h3">Email Address</label>
+            <input type="email" class="form-control form-control-lg" id="email" placeholder="eg. you@yourdomain.com" />
+        </div>
+        <div class="form-group">
+            <label for="password" class="h3">Create a password</label>
+            <input type="password" class="form-control form-control-lg" id="password" placeholder="minimum of 8 characters" />
+        </div>
+        <div class=form-group>
+            <label for="confirm-password" class="h3">Confirm password</label>
+            <input type="password" class="form-control form-control-lg" id="confirm-password" />
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Create Account</button>
+        </div>
+    </form>
+    <h3 class="text-center">Already have an account? Login.</h3>
+</div>
+
+
+@*<h1>hello world</h1>*@
